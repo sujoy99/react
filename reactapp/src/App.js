@@ -4,15 +4,25 @@
 
 // for autocomplete check settings.json ("emmet.includeLanguages":{"javascript": "javascriptreact")
 
+// alternative of React.Fragment is <> </>
+
 import React from 'react'
 
 const App = () => {
   return (
-    <div>
+    
+    <>
+      <MyMessage />
       <h1>Hello World</h1>
-    </div>
+      <MyMessage />
+    </>
   )
 }
+
+const MyMessage = () => {
+  return <h3>First Step in React</h3>
+}
+
 
 
 // how React works
