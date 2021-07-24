@@ -1,10 +1,12 @@
 import React from 'react'
-import Restuarent from "./components/basics/Restaurent"
+import Varsity from './components/basic1/Varsity'
+// import Restuarent from "./components/basics/Restaurent"
 
 const App = () => {
   return (
     <>
-     <Restuarent /> 
+      <Varsity />
+     {/* <Restuarent />  */}
     </>
   )
 }
