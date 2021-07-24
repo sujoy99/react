@@ -1,0 +1,14 @@
+import "./style.css"
+
+// javascript object
+const myStyle = {color: "yellow", fontSize: "22px"}
+
+style={myStyle}
+
+or 
+
+{{color: "blue", fontSize: "18px"}}
+
+
+//for image
+make a folder name image in public folder
